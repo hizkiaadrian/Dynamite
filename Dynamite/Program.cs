@@ -19,7 +19,7 @@ namespace Dynamite {
             return outcomes[m1][m2];
         }
 
-        public static void Main(string[] args) {
+        public static void Main() {
 			
 			// Set bots here
             IBot bot1 = new HizkiaBot();
@@ -55,7 +55,6 @@ namespace Dynamite {
                     Console.WriteLine(e.StackTrace);
                     return;
                 }
-
                 if (move1 == Move.D && bot1D-- == 0) {
                     Console.WriteLine($"Bot1 out of dynamite, Bot2 wins, score was {bot1Wins} - {bot2Wins}");
                     return;
