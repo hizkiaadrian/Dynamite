@@ -22,8 +22,8 @@ namespace Dynamite {
         public static void Main() {
 			
 			// Set bots here
-            IBot bot1 = new HizkiaBot();
-            IBot bot2 = new EnemyBot();
+            IBot bot1 = new MarkovChainSecondBot();
+            IBot bot2 = new MarkovChainBot();
             
             Gamestate game1 = new Gamestate();
             Gamestate game2 = new Gamestate();

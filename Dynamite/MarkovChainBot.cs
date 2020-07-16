@@ -6,7 +6,7 @@ using BotInterface.Game;
 
 namespace Dynamite
 {
-    public class HizkiaBot : IBot
+    public class MarkovChainBot : IBot
     {
         #region Fields
 
